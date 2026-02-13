@@ -53,26 +53,27 @@ This project demonstrates practical use of:
 
 ---
 
-## 🚨 Why This Matters
+🦙 AWS Security Monitoring System
+🚨 Why This Matters
 
-Enabling SNS notifications directly from CloudTrail can generate excessive noise.
+Direct SNS notifications from CloudTrail can generate excessive noise.
 
-Using CloudWatch metric filters allows:
+Using CloudWatch metric filters provides:
 
-- Event-level precision  
-- Controlled alert thresholds  
-- Reduced alert fatigue  
+🎯 Event-level precision
 
-This approach mirrors how production SOC monitoring pipelines are structured.
+⏱ Controlled alert thresholds
 
+🔕 Reduced alert fatigue
+
+This mirrors how production SOC monitoring pipelines are designed.
+
+🔎 Detection Configuration
 Monitored API
-
 GetSecretValue
 
-
 Alarm Condition
-
-SecretIsAccessed ≥ 1 within 5 minutes
+SecretsAccessed >= 1 within 5 minutes
 
 🧪 Testing & Validation
 
@@ -88,13 +89,13 @@ Confirmed SNS email delivery
 
 📊 Lessons Learned
 
-CloudTrail Event History is limited to 90 days
+CloudTrail Event History retention is limited to 90 days
 
 CloudWatch enables long-term filtering and alerting
 
 SNS subscriptions must be confirmed before notifications are delivered
 
-Effective security monitoring requires balancing signal vs noise
+Effective monitoring requires balancing signal vs noise
 
 🎯 Outcome
 
