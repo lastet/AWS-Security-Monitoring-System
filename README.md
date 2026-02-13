@@ -23,8 +23,6 @@ This project demonstrates practical use of:
 - CloudWatch Alarms  
 - Amazon SNS  
 
-📄 Full project walkthrough (PDF):  
-`legendary-aws-security-monitoring.pdf`
 
 ---
 
