@@ -6,6 +6,13 @@
 
 ## 📌 Project Overview
 
+
+
+<p align="center">
+  <img src="screenshots/cute_lama.png" width="300">
+</p>
+
+
 In this project, I built a security monitoring pipeline that detects when an AWS secret is accessed and sends real-time notifications.
 
 The goal was to simulate a real-world security scenario:
@@ -27,6 +34,12 @@ This project demonstrates practical use of:
 ---
 
 ## 🧠 Architecture Summary
+
+
+
+<p align="center">
+  <img src="screenshots/secret_trail.png" width="800">
+</p>
 
 1. A secret is stored in **AWS Secrets Manager**  
 2. Secret access triggers a **CloudTrail management event**  
