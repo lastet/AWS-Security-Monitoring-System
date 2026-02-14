@@ -106,6 +106,7 @@ A functional real-time monitoring system capable of detecting and alerting on se
 
 ## 📁 Project Structure (Root)
 
+```
 AWS-Security-Monitoring-System/
 ├── README.md
 └── screenshots/
@@ -115,4 +116,5 @@ AWS-Security-Monitoring-System/
     ├── metrics_details.png
     ├── SNS.png
     └── placeholder.txt
+```
 
