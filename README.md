@@ -36,20 +36,35 @@ This project demonstrates practical use of:
 ## 🧠 Architecture Summary
 
 
+1. A secret is stored in **AWS Secrets Manager**
+
+<p align="center">
+  <img src="screenshots/secret_details.png" width="800">
+</p>
+ 
+2. Secret access triggers a **CloudTrail management event**
 
 <p align="center">
   <img src="screenshots/secret_trail.png" width="800">
 </p>
 
-1. A secret is stored in **AWS Secrets Manager**  
-2. Secret access triggers a **CloudTrail management event**  
 3. CloudTrail logs are delivered to:
    - S3 bucket  
    - CloudWatch Logs  
-4. A **CloudWatch Metric Filter** scans logs for `GetSecretValue`  
+4. A **CloudWatch Metric Filter** scans logs for `GetSecretValue`
+
+
+<p align="center">
+  <img src="screenshots/metrics_details.png" width="800">
+</p>
+
 5. A **CloudWatch Alarm** triggers if metric ≥ 1 within a 5-minute period  
 6. The alarm publishes a notification to **SNS**  
 7. Email notification is delivered to the subscriber  
+
+<p align="center">
+  <img src="screenshots/SNS.png" width="800">
+</p>
 
 ---
 
