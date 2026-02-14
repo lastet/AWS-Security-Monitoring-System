@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="screenshots/cute_lama.png" width="300">
+  <img src="screenshots/cute_lama.png" width="800">
 </p>
 
 
@@ -101,3 +101,18 @@ This mirrors how production SOC monitoring pipelines are designed.
 ## 🎯 Outcome
 
 A functional real-time monitoring system capable of detecting and alerting on secret access events in AWS.
+
+
+
+## 📁 Project Structure (Root)
+
+AWS-Security-Monitoring-System/
+├── README.md
+└── screenshots/
+    ├── cute_lama.png
+    ├── secret_details.png
+    ├── secret_trail.png
+    ├── metrics_details.png
+    ├── SNS.png
+    └── placeholder.txt
+
